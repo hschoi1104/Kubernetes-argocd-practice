@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: whalesay
-        image: docker/whalesay:lates
+        image: docker/whalesay:latest
         ports:
         - containerPort: 80
         command: ["/bin/sh","-c"]
